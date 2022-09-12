@@ -204,4 +204,31 @@ ul{
     background-color: lightpink;
     border: 1px solid black;
 }
+
+/* quadrati */
+
+.squaretainer{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+
+    /* debug */
+    background-color: darkgoldenrod;
+}
+
+.box{
+    width: calc(100% / 3);
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.square{
+    width: calc(100% / 2);
+    /* debug */
+    border: 1px solid black;
+    background-color: chartreuse;
+
+
+}
 /* /main */
