@@ -196,5 +196,12 @@ ul{
 }
 
 /* caratteristiche */
+.col-car{
+    width: calc(100% / 3);
+    margin-top: 2rem;
 
+    /* debug */
+    background-color: lightpink;
+    border: 1px solid black;
+}
 /* /main */
