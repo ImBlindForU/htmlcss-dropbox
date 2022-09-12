@@ -5,6 +5,142 @@
     box-sizing: border-box;
 }
 
-body{
+/* COMMAND */
+
+.flex{
+    display: flex;
+}
+
+.centre{
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+    align-items: center;
+}
+.end{
+    justify-content: flex-end;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+.space-between{
+    
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+    
+
+    /* debug */
+    background-color: lightgray;
+}
+/* /COMMAND */
+
+/* HEADER */
+
+
+/* NAV */
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* debug */
+    background-color: green;
+}
+
+
+.header-container{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+
+
+    /* debug */
+    height:50px;
+    background-color: aqua;
+}
+
+.start-header{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    /* top: calc(50% - 18px ); */
     background-color: red;
 }
+
+.end-header{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background-color: purple;
+    
+}
+
+.start-header > div{
+    margin-right: 1rem;
+    
+    /* DEBUG */
+    border: 1px solid black;
+    
+}
+.end-header > div{
+    margin-left: 1rem;
+    
+    /* DEBUG */
+    border: 1px solid black;
+}
+
+/* /NAV */
+
+/* JUMBO */
+
+.jumbo{
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color:#B4D0E7 ;
+
+}
+
+.jumbo-container{
+    
+    width: 70%;
+    margin: 0 auto;
+    
+    background-color: lightpink;
+}
+
+.container-col-jumbo{
+    width: 100%;
+    display: flex;
+}
+
+.collum{
+    width: calc(100% / 2 );
+    /* debug */
+    border: 1px solid black;
+    
+}
+/* /JUMBO*/
+
+/* /HEADER */
+
+/* main */
+
+.container h3{
+    background-color: lightsalmon;
+}
+
+.container .check-box{
+    background-color: aqua;
+}
+
+.container .
+/* /main */
