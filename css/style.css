@@ -28,15 +28,23 @@
 }
 
 .space-between{
-    
+    justify-content: space-between;
 }
 .container{
-    width: 65%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 50px auto;
     
 
     /* debug */
     background-color: lightgray;
+}
+
+.mt{
+    margin-top: 50px;
+}
+
+ul{
+    list-style: none;
 }
 /* /COMMAND */
 
@@ -111,7 +119,7 @@
 
 .jumbo-container{
     
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     
     background-color: lightpink;
@@ -142,5 +150,45 @@
     background-color: aqua;
 }
 
-.container .
+.container .flex{
+    /* debug */
+    background-color: limegreen;
+}
+
+.col{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.number{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.col-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* direct testo */
+
+.team-testo{
+    width: 70%;
+
+    /* debug */
+    background-color: burlywood;
+}
+
+.team-button{
+    width: 30%;
+
+    /* debug */
+    background-color: blueviolet;
+}
+
+/* immagine e testo */
+
+.imm{
+    width: 50%;
+}
 /* /main */
