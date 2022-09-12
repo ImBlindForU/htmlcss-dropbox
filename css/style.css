@@ -11,6 +11,9 @@
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
 .centre{
     justify-content: center;
     align-items: center;
@@ -191,4 +194,7 @@ ul{
 .imm{
     width: 50%;
 }
+
+/* caratteristiche */
+
 /* /main */
