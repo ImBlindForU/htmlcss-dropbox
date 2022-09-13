@@ -380,9 +380,14 @@ ul li {
 
 .prima{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 10rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5rem, -2.2px);
+    color: white;
+    background-color: green;
 }
 /* prova gratuita */
 
