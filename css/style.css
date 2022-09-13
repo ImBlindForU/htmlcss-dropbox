@@ -43,11 +43,11 @@ img{
 }
 .container{
     width: 70%;
-    margin: 50px auto;
+    margin: 10rem auto;
     
 
     /* debug */
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 
@@ -55,6 +55,9 @@ img{
     margin-top: 50px;
 }
 
+.mb{
+    margin-bottom: 2rem;
+}
 ul{
     list-style: none;
 }
@@ -62,6 +65,10 @@ ul{
 .white{
     background-color: white;
     z-index: 999;
+}
+
+.strech{
+    align-items:stretch ;
 }
 /* /COMMAND */
 
@@ -184,7 +191,7 @@ ul{
     
 }
 
-.collum > p,button,p{
+.collum > p, .one,p{
     margin-bottom: 2rem;
 }
 
@@ -197,32 +204,53 @@ ul{
 
 /* main */
 
-.container h3{
-    background-color: lightsalmon;
+.container h2{
+    /* background-color: lightsalmon; */
+    font-size: 2rem;
 }
 
-.container .check-box{
-    background-color: aqua;
+.container .check-box input{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    /* background-color: aqua; */
 }
 
 .container .flex{
     /* debug */
-    background-color: limegreen;
+    /* background-color: limegreen; */
 }
 
 .col{
     width: 30%;
-    border: 1px solid black;
+    min-height: 40rem;
+    border: 1px solid rgba(0, 0, 0, 0.507);
 }
 
 .number{
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.507);
 }
 
 .col-container{
     width: 90%;
     margin: 0 auto;
+}
+
+.col-container > h3, h4, h5{
+    margin-top: 1rem;
+}
+
+.col-container > ul, .two, .link{
+    margin-top: 3rem;
+}
+
+.col-container ul li i{
+    margin-right: 0.5rem;
+    
+}
+
+.blu{
+    color: #0061FF;
 }
 
 /* direct testo */
