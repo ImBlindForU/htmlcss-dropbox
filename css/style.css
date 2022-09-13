@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
+:root{
+
+}
 /* COMMAND */
 
 .flex{
@@ -42,12 +49,18 @@
     background-color: lightgray;
 }
 
+
 .mt{
     margin-top: 50px;
 }
 
 ul{
     list-style: none;
+}
+
+.white{
+    background-color: white;
+    z-index: 999;
 }
 /* /COMMAND */
 
@@ -62,19 +75,20 @@ ul{
     top: 0;
     left: 0;
     /* debug */
-    background-color: green;
+    /* background-color: green; */
 }
 
 
+
 .header-container{
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
     position: relative;
-
+    
 
     /* debug */
     height:50px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .start-header{
@@ -82,8 +96,9 @@ ul{
     left: 0;
     height: 100%;
     width: 50%;
+    
     /* top: calc(50% - 18px ); */
-    background-color: red;
+    /* background-color: red; */
 }
 
 .end-header{
@@ -91,24 +106,45 @@ ul{
     right: 0;
     height: 100%;
     width: 50%;
-    background-color: purple;
+
+    /* debug */
+    /* background-color: purple; */
+    
+}
+.start-header > ul{
+    margin-left: 1em;
     
 }
 
-.start-header > div{
-    margin-right: 1rem;
-    
-    /* DEBUG */
-    border: 1px solid black;
+
+.end-header > ul{
+    margin-right: 1em;
+}
+.start-header ul li > a{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
     
 }
-.end-header > div{
-    margin-left: 1rem;
+.end-header ul li > a{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
     
-    /* DEBUG */
-    border: 1px solid black;
 }
 
+.logo img{
+    width: 100%;
+    height: 2rem;
+}
+
+.button button{
+    padding: 0.5rem 1rem;
+    border: #0061FF;
+}
+
+.blue-button{
+    background-color: #0061FF;
+    color: white;
+}
 /* /NAV */
 
 /* JUMBO */
@@ -209,7 +245,7 @@ ul{
 
 .squaretainer{
     width: 100%;
-    height: 15rem;
+    height: calc(100vw / 3);
     display: flex;
 
     /* debug */
