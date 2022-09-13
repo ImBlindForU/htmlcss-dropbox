@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img{
@@ -158,10 +159,10 @@ ul{
 
 .jumbo-container{
     
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     
-    background-color: lightpink;
+    /* background-color: lightpink; */
 }
 
 .container-col-jumbo{
@@ -169,11 +170,26 @@ ul{
     display: flex;
 }
 
+.jumbo-container h1{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+}
+
 .collum{
-    width: calc(100% / 2 );
+    width: 35%;
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.849);
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
+}
+
+.collum > p,button,p{
+    margin-bottom: 2rem;
+}
+
+.jumbo-img{
+    margin-bottom: -8rem;
 }
 /* /JUMBO*/
 
