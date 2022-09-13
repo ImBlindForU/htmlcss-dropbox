@@ -14,7 +14,9 @@ img{
 
 }
 /* COMMAND */
-
+.pt{
+    padding-top: 5rem;
+}
 h3{
     font-size: 1.5rem;
 }
@@ -93,8 +95,9 @@ ul{
     /* background-color: green; */
 }
 
-
-
+.relative{
+    position: relative;
+}
 .header-container{
     width: 98%;
     margin: 0 auto;
@@ -275,7 +278,9 @@ ul li {
     display: flex;
      
 }
-
+.number i{
+    padding-right: 0.5rem;
+}
 .brline{
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -285,7 +290,7 @@ ul li {
 
 .team-testo{
     width: 70%;
-
+    margin-left: 2rem;
     /* debug */
     /* background-color: burlywood; */
 }
@@ -301,23 +306,49 @@ ul li {
     padding-top: 2rem;
 }
 
-.team-testo > h3, h4, p{
+.team-testo{
     margin-left: 2rem;
 }
 /* immagine e testo */
 
 .imm{
-    width: 50%;
+    width: 140%;
+    height: calc(100vw / 3);
 }
 
+.box-testo-laterlale{
+    padding-left:4rem;
+    text-align: start;
+    padding-top: 7rem;
+}
+
+.box-testo-laterlale h3{
+    font-size: 2rem;
+}
+.box-testo-laterlale p{
+    font-size: 1.5rem;
+}
 /* caratteristiche */
 .col-car{
     width: calc(100% / 3);
     margin-top: 2rem;
 
     /* debug */
-    background-color: lightpink;
-    border: 1px solid black;
+    /* background-color: lightpink;
+    border: 1px solid black; */
+}
+
+.col-car img{
+    width: 70%;
+    padding-bottom: 3rem;
+}
+
+.col-car h3{
+    font-size: 2rem;
+}
+
+.col-car p{
+    font-size: 1.5rem;
 }
 
 /* quadrati */
@@ -340,11 +371,19 @@ ul li {
 
 .square{
     width: calc(100% / 2);
+    position: relative;
     /* debug */
-    border: 1px solid black;
-    background-color: chartreuse;
+    /* border: 1px solid black;
+    background-color: chartreuse; */
 }
 
+
+.prima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
 /* prova gratuita */
 
 .freetrial-container{
