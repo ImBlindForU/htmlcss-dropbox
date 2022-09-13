@@ -15,6 +15,13 @@ img{
 }
 /* COMMAND */
 
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1rem;
+}
 .flex{
     display: flex;
 }
@@ -222,13 +229,18 @@ ul{
 
 .col{
     width: 30%;
-    min-height: 40rem;
+    min-height: 60rem;
     border: 1px solid rgba(0, 0, 0, 0.507);
 }
 
 .number{
     text-align: center;
+    padding: 1rem;
     border-bottom: 1px solid  rgba(0, 0, 0, 0.507);
+}
+
+.border{
+    border: 1px solid rgba(0, 0, 0, 0.507);
 }
 
 .col-container{
@@ -236,7 +248,7 @@ ul{
     margin: 0 auto;
 }
 
-.col-container > h3, h4, h5{
+.col-container > h3, h4, p{
     margin-top: 1rem;
 }
 
@@ -247,28 +259,51 @@ ul{
 .col-container ul li i{
     margin-right: 0.5rem;
     
+    
+}
+
+.col-container ul li{
+    margin-top: 2rem;
 }
 
 .blu{
     color: #0061FF;
+    
 }
 
+ul li {
+    display: flex;
+     
+}
+
+.brline{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color:  rgba(0, 0, 0, 0.507);
+}
 /* direct testo */
 
 .team-testo{
     width: 70%;
 
     /* debug */
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 .team-button{
     width: 30%;
-
+    
     /* debug */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
+.team-testo > p{
+    padding-top: 2rem;
+}
+
+.team-testo > h3, h4, p{
+    margin-left: 2rem;
+}
 /* immagine e testo */
 
 .imm{
