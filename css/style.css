@@ -467,7 +467,7 @@ ul li {
 }
 
 .shadow{
-    box-shadow: 1rem #D1E9CD;
+    box-shadow: inset 1rem 1rem 1rem 1rem #D1E9CD;
 }
 /* prova gratuita */
 
