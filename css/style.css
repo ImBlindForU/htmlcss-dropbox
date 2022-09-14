@@ -51,7 +51,7 @@ h4{
     justify-content: space-between;
 }
 .container{
-    width: 70%;
+    width: 50%;
     margin: 10rem auto;
     
 
@@ -162,6 +162,10 @@ ul{
 .blue-button{
     background-color: #0061FF;
     color: white;
+}
+.bottone{
+    padding: 1rem 3rem;
+    border: #0061FF;
 }
 /* /NAV */
 
@@ -286,6 +290,8 @@ ul li {
     padding-bottom: 2rem;
     color:  rgba(0, 0, 0, 0.507);
 }
+
+
 /* direct testo */
 
 .team-testo{
@@ -417,6 +423,10 @@ ul li {
     padding-bottom: 2rem;
     border-bottom: 1px solid black;
 }
+
+.faqu{
+    padding-left: 95%;
+}
 /* /main */
 
 /* footer */
@@ -424,6 +434,7 @@ footer{
     background-color: black;
     color: white;
     width: 100%;
+    height: calc(100vw / 5);
     /* height: 15rem; */
 }
 
@@ -441,5 +452,15 @@ footer{
 
 .b-footer{
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 10%;
+}
+
+.lingua{
+    border-top:1px solid white;
+    margin-top: 2rem;
+    padding-top: 3rem;
+}
+
+.ml{
+    margin-left: 0.5em;
 }
