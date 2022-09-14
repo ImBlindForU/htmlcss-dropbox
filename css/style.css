@@ -15,9 +15,9 @@ img{
 }
 /* COMMAND */
 
-hr{
-    width: 20%;
-}
+    /* hr{
+        width: 10%;
+    } */
 .pt{
     padding-top: 5rem;
 }
@@ -407,7 +407,9 @@ ul li {
     /* border: 1px solid black; */
     /* background-color: chartreuse; */
 }
-
+.venti{
+    width: 20%;
+}
 .filter{
     filter: invert(100%);
 }
@@ -465,7 +467,7 @@ ul li {
 }
 
 .shadow{
-    box-shadow: inset 5% ;
+    box-shadow: 1rem #D1E9CD;
 }
 /* prova gratuita */
 
@@ -539,5 +541,5 @@ footer{
 .ww{
     color: white ;
     margin-bottom: 4rem;
-    width: 20%;
+    width: 8%;
 }
