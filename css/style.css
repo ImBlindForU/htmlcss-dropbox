@@ -14,6 +14,10 @@ img{
 
 }
 /* COMMAND */
+
+hr{
+    width: 20%;
+}
 .pt{
     padding-top: 5rem;
 }
@@ -438,6 +442,16 @@ ul li {
     background-color: #FFD830;
 }
 
+.gry{
+    background-color: #F5F5F5;
+}
+.xob{
+    width: 90%;
+    margin: 3rem auto;
+}
+.xob >  p,hr {
+    margin-top: 4rem;
+}
 .prima{
     display: flex;
     align-items: center;
