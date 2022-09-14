@@ -131,8 +131,8 @@ ul{
 }
 .start-header > ul{
     margin-left: 1em;
-    
 }
+
 
 
 .end-header > ul{
@@ -164,7 +164,7 @@ ul{
     color: white;
 }
 .bottone{
-    padding: 1rem 3rem;
+    padding: 0.8rem 1.5rem;
     border: #0061FF;
 }
 /* /NAV */
@@ -291,6 +291,16 @@ ul li {
     color:  rgba(0, 0, 0, 0.507);
 }
 
+/* .bottonee{
+    background-color:#0061FF;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.lol{
+    background-color:#0061FF;
+    border-color: #0061FF;
+} */
 
 /* direct testo */
 
@@ -350,11 +360,11 @@ ul li {
 }
 
 .col-car h3{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .col-car p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* quadrati */
